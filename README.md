@@ -1,4 +1,6 @@
-# Conhecendo a linguagem
+# Python AI Backend Developer
+
+# Conhecendo a linguagem Python
 ### O que são Tipos?
 ## Por que usamos tipos?
   - Os tipos servem para definir as caracteristicas e comportamentos de um valor ( objeto) para o interpretador.
@@ -46,3 +48,29 @@ São exemplos de booleanos:
 São exemplos válidos de string:
 
 `"Python", 'Python', """Python""", "p"` 
+
+# Modo Interativo
+
+O interpretador Python pode executar um modo que possibilite o desenvolvedor a escrever código e ver o resultado na hora.
+
+## Iniciando o Modo Interativo
+
+Existem duas formas de iniciar o modo interativo.
+
+1. No interpretador
+ > Escrever `Python` e apertar *Enter*. Assim, iniciando o modo Interativo
+2. Script com flag -i
+ > Executar `python -i nomeDoArquivo.py`
+
+3. Para sair digite **`exit()`**
+
+## Funções dir e help
+### dir
+ - Sem argumentos, retorna al ista de nomes no escopo local atual
+ `dir()`
+ - Com um argumento, retorna uma lista de atributos válidos para o objeto
+ `dir(100)`
+
+### help
+ - Invoca o sistema de ajuda integrado. É possível fazer buscas em modo interativo ou informar por parâmetro qual o nome do *módulo*, *função*, *classe*, *métod*o ou *variável*. Ex:
+ `help()` `help(100)`
