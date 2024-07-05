@@ -47,7 +47,7 @@ São exemplos de booleanos:
 > Strings ou cadeia de caracteres são usadas para representar valores alfanuméricos, em Python as strings são definidas utilizando a classe **str**.
 São exemplos válidos de string:
 
-`"Python", 'Python', """Python""", "p"` 
+`"Python"`, `'Python'`, `"""Python"""`, `"p"` 
 
 # Modo Interativo
 
