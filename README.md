@@ -1,7 +1,7 @@
 # Python AI Backend Developer
 
-# Conhecendo a linguagem Python
-### O que são Tipos?
+## Conhecendo a linguagem Python
+## O que são Tipos?
 ## Por que usamos tipos?
   - Os tipos servem para definir as caracteristicas e comportamentos de um valor ( objeto) para o interpretador.
   - Subdivide quais operações eu posso fazer com o valor que foi informado, se é um número ou não, se posso fazer operações matemáticas ou não...
