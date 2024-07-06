@@ -140,3 +140,95 @@ São operadores utilizados para definir o valor inicial ou sobrescrever o valor 
     saldo **= 2
     print(saldo) >>> 6400
  ```
+ <hr>
+
+ ## Operadores Lógicos
+ ### O que são?
+ 
+ São operadores utilizados em conjunto com os operadores de comparação, para montar uma expressão lógica.
+ Quando um operador de comparação é utlizado, o resultado retornado é um booleano, dessa forma podemos combinar operadores de comparação com os operadores lógicos, exemplo:
+ >*op_comparacao + op_logico + op comparacao... N...*
+
+```
+   saldo = 1000
+   saque = 200
+   limite = 100
+
+   saldo >= saque  >>> True
+   saque <= limite >>> False
+```
+
+Usando as seguintes variáveis como exemplo:
+```
+   saldo = 1000
+   saque = 200
+   limite = 100
+```
+
+**Operador E**
+ - Saldo maior ou igual a Saque **E** Saque menor ou igual a limite
+  `saldo >= saque and saque <= limite  >>> False` 
+
+**Operador OU**
+- Saldo maior ou igual a Saque **OU** Saque menor ou igual a limite
+  `saldo >= saque or saque <= limite  >>> True`
+
+**Operador Negação**
+- Operador **not**
+- A Negação nega o valor original devolvido pelo elemento.
+   `contatos_emergencia = []` - Lista vazia em Python é considerado um boolean falso.
+  `not 1000 > 1500  >>> True` - Inverso do verdadeiro
+  `not contatos_emergencia  >>> True`
+  `not "saque 1500;"  >>> False`
+  `not ""  >>> True`
+
+**Parênteses**
+```
+   saldo = 1000
+   saque = 200
+   limite = 100
+   conta_especial = True
+```
+
+`saldo >= saque and saque <= limite or conta_especial and saldo >= saque  >>> True`
+
+`(saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)  >>> True`
+
+<hr>
+
+## Operadores de Identidade
+### O que são?
+São operadores utilizados para comparar se dois objetos testados ocupam a mesma posição na memória.
+> Operador : **is**
+
+Exemplo:
+```
+   curso = "Curso de Python"
+   nome_curso = curso
+   saldo, limite = 200, 200
+```
+`curso is nome_curso >>> True`
+`curso is not nome_curso >>> False`
+`saldo is limite >>> True`
+
+objetoA is objetoB?
+
+<hr>
+
+## Operadores de Associação
+### O que são?
+São utilizados para verificar se um objeto está presente em uma seqência
+
+> Operador: **in**
+
+Exemplo
+
+```
+   curso = "Curso de Python"
+   frutas = ["laranja", "uva", "limão"]
+   saques = [1500, 100]
+```
+
+`"Python" in curso  >>> True`
+`"maçã" not in frutas  >>> True`
+`200 in saques  >>> False`
