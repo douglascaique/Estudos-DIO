@@ -144,7 +144,7 @@ nome_completo[::-1]     >>> "odapahC oãhlugaB segroB sacuL"
 
 ## String múltiplas linhas
 
-São definidas informando 3 aspas simples ou duplas durante a atribuição
+São definidas informando ***3 aspas*** simples ou duplas durante a atribuição
 Podem ocupar várias linhas do código, e todos os espaços em branco são incluidos na string final
 
 
